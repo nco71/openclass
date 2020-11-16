@@ -1,0 +1,12 @@
+core: 8.x
+core_version_requirement: ^8 || ^9
+name: quiz test module
+type: module
+dependencies:
+  - quiz
+  - views
+
+# Information added by Drupal.org packaging script on 2020-09-01
+version: '6.0.0-alpha4'
+project: 'quiz'
+datestamp: 1598997148

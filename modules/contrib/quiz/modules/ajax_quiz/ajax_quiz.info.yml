@@ -1,0 +1,12 @@
+name: AJAX Quiz
+description: This module doesn't degrade gracefully, and we don't recommend using it until it does. This module attempts to provide an AJAX version of quiz. Successive quiz questions will be loaded in the same page without page reload, but it doesn't work flawlessly at the moment.
+package: Quiz addon
+type: module
+dependencies:
+  - quiz
+core: 8.x
+core_version_requirement: ^8 || ^9
+# Information added by Drupal.org packaging script on 2020-09-01
+version: '6.0.0-alpha4'
+project: 'quiz'
+datestamp: 1598997148

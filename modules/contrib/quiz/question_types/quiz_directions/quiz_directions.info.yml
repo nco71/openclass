@@ -1,0 +1,13 @@
+name: Quiz - Directions
+type: module
+package: Quiz core
+description: Provide a slot to add directions for a quiz or some sub-portion of a quiz.
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - quiz
+
+# Information added by Drupal.org packaging script on 2020-09-01
+version: '6.0.0-alpha4'
+project: 'quiz'
+datestamp: 1598997148

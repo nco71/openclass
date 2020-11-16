@@ -1,0 +1,13 @@
+<?php
+
+use Drupal\Core\Session\AccountInterface;
+
+/**
+ * Implements hook_install().
+ *
+ * Grant default permissions to authenticated users, to take available quizzes
+ * and view their own results.
+ */
+function quiz_install() {
+  user_role_grant_permissions(AccountInterface::AUTHENTICATED_ROLE, ['view own quiz_result', 'view any quiz', 'access quiz']);
+}

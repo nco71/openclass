@@ -1,0 +1,11 @@
+name = Quiz statistics
+description = Creates a report to compare and analyse the results of quiz attendees.
+core = 7.x
+package = Quiz addon
+dependencies[] = quiz
+dependencies[] = charts
+
+; Information added by Drupal.org packaging script on 2020-09-01
+version = "6.0.0-alpha4"
+project = "quiz"
+datestamp = "1598997148"
